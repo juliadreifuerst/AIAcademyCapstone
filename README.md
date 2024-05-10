@@ -4,23 +4,20 @@
 Credit risk prediction is a cricial process for financial institutions, aiming to asses the likehood of a borrower defaulting on a loan. That way the non-defaulter people can access easily to credist with better
 conditions, while the institutions reduce the risk of finantial loss.
 There are many techniques to predict credit risk, but Machine Learning can be used to automate the prediction process, since it learns the patterns asociated with a defaulter profile and its use reduces time and resources consumption.
-Proactive detection of bank account application fraud is always a priority item for clients in the financial and banking industries. Detecting application fraud in a timely manner in hopes of preventing or reducing financial loss requires extensive time and effort. Advanced technology such as machine learning is not new, but increasing use cases and success allows for an expanded implementation scope. Machine learning models facilitate and expedite the detection process by identifying patterns of high risk account characteristics and features that are likely to be triggers of fraudulent activity. 
+Detecting people with a high risk profile can be a complex task, but still it implies better profit margin for the institution, and ML using improves a lot the efficiency, and the institution resources can be now used in other areas that require human supervision.
 
-Clients who leverage machine learning models to detect fraudulent application patterns are more likely to reduce mean time to remediation by managing fraudulent event triggers before they are escalated to incidences. There is also increased chances of cost savings as less successful fraudulent applications equates to less financial loss and resources spent in remediation and subsequent payout. Practices such as these increase success rates and demonstrate consistent results, efficiency, and service confidence in clients' customers. Finally, resources and manpower previously dedicated to tedious fraud detection monitoring and management can be better utilized to expand the organization and provide oppportunity and time to dedicate to other focus areas. 
-
-Our team at Deloitte seeks to create and implement a state-of-the-art machine learning model for the purpose of filling these gaps for clients in relevant industries. Our aim is to help our clients understand driving predictors of bank account application fraud and implement industry leading and effective detection processes. 
+Our team at Deloitte seeks to use different machine learning models to predict the credit risk for different profiles, test them and implement a metric to compare them, once evaluated, we´ll select the model with the best results, as well as understand what are the features with the greatest impact in the final result, that will give added value to the client. 
 
 ### Description of Data
 
 
-**Data Source**: Bank Account Application Fraud: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022/data
+**Data Source**: Credit Risk Dataset: (https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 
-**EDA Techniques** 
-We started going through our dataset primarily with .info() to understnad each variable we were dealing with, as well as the possible values. We had 25 categorical and 5 variables that could be one of a set number of values. To better understand what these values could be, we had to go and search the dataset and associated documents which listed what each value represented and what they could possibly be. Upon disocvering this, we were able to understand each vaiable as whether it related to the technology used for the applicaation, background information about the applicant themselves, or information on the application itself.
+**Exploratory analysis** 
+We first reviewed all the variables to understand their meaning.
+Plots, etc.
 
-After understanding what each variable was and how it was associated or could ahve confounding impact with other variables, we went and searched basic summary statistics (mean, median, mode, etc.) or each variable to understand the range we were working with (eventuallyy we would standardize for better analysis). Next, we created various plots, often bar charts, to look at the distribution of variables as well as any outliars that could give us more insight into later analysis or each variable and how it could affect the likelihood of fraud. 
-
-Next, as out target was understanding the relationship between each variable and it's association with fraud, we created a heatmap to look for any associations between all variables. We predominantly were focusing on relationships with variables and the target variable, fraud_value, and we did see a range of correlation leading to a starting point for us to analyze and develop our model.
+Correlation matrix
 
 
 ### Data Understanding and Analysis
