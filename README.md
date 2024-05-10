@@ -13,9 +13,20 @@ Our team at Deloitte seeks to use different machine learning models to predict t
 
 **Data Source**: Credit Risk Dataset: (https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 
-**Exploratory analysis** 
+**Exploratory analysis**   
 We first reviewed all the variables to understand their meaning.
-Plots, etc.
+Then we checked if the data was balanced, according to the result it wasn´t so, a data balancing technique was needed.
+![image](https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/0d3f2174-0525-43d2-af43-126b4d85363d)
+
+A comparative visual analysis was performed, where we built a correlation matrix for all the variables, 
+![image](https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/5355d94d-3a12-4858-8514-f387efed3549)
+
+Checking the variables correlations to the Loan Status, we found that the most correlated variables are  Loan Percent Income, Loan Interest Rate as well as the Loan Grade D.
+![image](https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/209974dc-5a84-42a7-9adb-3165658c9af1)
+
+
+
+
 
 Correlation matrix
 
