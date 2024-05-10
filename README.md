@@ -1,4 +1,4 @@
-# Credit Risk Prediction
+# Credit Risk Crystal Ball: Predicting Risk with Machine Learning
 ### Overview and Business Understanding
 
 Credit risk prediction is a cricial process for financial institutions, aiming to asses the likehood of a borrower defaulting on a loan. That way the non-defaulter people can access easily to credist with better
@@ -21,7 +21,8 @@ Then we checked if the data was balanced, according to the result it wasn´t so,
 A comparative visual analysis was performed, where we built a correlation matrix for all the variables, 
 ![image](https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/5355d94d-3a12-4858-8514-f387efed3549)
 
-Checking the variables correlations to the Loan Status, we found that the most correlated variables are  Loan Percent Income, Loan Interest Rate as well as the Loan Grade D.
+Checking the variables correlations to the Loan Status, we found that the most correlated variables are  Loan Percent Income, Loan Interest Rate as well as the Loan Grade D, so we would expect this variables to have the greatest impact on the final result.
+
 ![image](https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/209974dc-5a84-42a7-9adb-3165658c9af1)
 
 
@@ -32,10 +33,3 @@ Correlation matrix
 
 
 ### Data Understanding and Analysis
-
-
-When training our machine learning model for detecting bank account fraud, we employed a set of robust success metrics essential for evaluating its performance. Initially we utlized the ROC/AUC curve, which offered an understanding of the model's ability to distinguish between fraudulent and legitimate transactions. This success metric allows us to see the trade-off between sensitivity and specificity of fruaduluent and non-fraudulent accounts. A high AUC score indicates a strong capability to classify between the two classes, serving as a reliable gauge of overall model performance.
-
-Moreover, precision and recall were important success metrics in our evaluation strategy. Precision quantifies the accuracy of positive predictions made by the model, emphasizing the proportion of correctly identified fraudulent cases among all predicted positives. Recall, on the other hand, measures the model's capability to identify all actual positive cases, indicating the completeness of fraud detection. Therefore, recall proved more useful in our model evaluation. In our model we were looking for a high recall through changing the decision thresholds and different weights to the target classes. Through this and additional techiniques we were able to acheive a recall **0.63*. This coupled with our high AUC of 0.76 helped prove the effectiveness of our model. Additionally, balancing these two metrics ensures a comprehensive understanding of the model's effectiveness, guarding against false positives and false negatives, both critical in the context of bank account fraud detection. 
-
-Finally, we created and analyzed confusion matrixes in order to see the models effectivness on a more granualar level. In turn this helped us improve out model throughout the process and identify areas of improvement for future tuning of our model. 
