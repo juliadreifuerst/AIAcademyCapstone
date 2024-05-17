@@ -7,7 +7,7 @@ There are many techniques to predict credit risk, but Machine Learning can be us
 Detecting people with a high risk profile can be a complex task, but still it implies better profit margin for the institution, and ML using improves a lot the efficiency, and the institution resources can be now used in other areas that require human supervision.
 
 Our team at Deloitte seeks to use different machine learning models to predict the credit risk for different profiles, test them and implement a metric to compare them, once evaluated, we´ll select the model with the best results, as well as understand what are the features with the greatest impact in the final result, that will give added value to the client. 
-
+jfjfjf
 ### Description of Data
 
 
