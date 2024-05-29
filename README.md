@@ -12,6 +12,9 @@ Our team at Deloitte seeks to use different machine learning models to predict t
 
 
 **Data Source**: Credit Risk Dataset: (https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
+The variables examined in relation to credit risk are as follows:
+<img width="266" alt="image" src="https://github.com/NJAimesD/AIAcademyCapstone/assets/119623980/32da60ed-2d7b-42f5-8e2d-014c5bb1036b">
+
 
 **Exploratory analysis**   
 We first reviewed all the variables to understand their meaning.
