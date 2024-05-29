@@ -19,9 +19,10 @@ The variables examined in relation to credit risk are as follows:
 
 The target variable of this data set, which we are trying to predict, is loan_status, which tells us whether someone will default on their loan or not.
 
+
 **Exploratory analysis**   
-We first reviewed all the variables to understand their meaning.
-Then we checked if the data was balanced, according to the result it wasn´t so, a data balancing technique was needed.
+After gaining an understandig of the variables, we move on to exploring the dataset.
+We did this by checking if the data was balanced, according to the result it wasn´t, so a data balancing technique was needed.
 ![image](https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/0d3f2174-0525-43d2-af43-126b4d85363d)
 
 A comparative visual analysis was performed, where we built a correlation matrix for all the variables, 
