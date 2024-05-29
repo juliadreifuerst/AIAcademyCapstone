@@ -15,7 +15,8 @@ Our team at Deloitte seeks to use different machine learning models to predict t
 
 The variables examined in relation to credit risk are as follows:
 
-<img width="266" alt="image" src="https://github.com/NJAimesD/AIAcademyCapstone/assets/119623980/32da60ed-2d7b-42f5-8e2d-014c5bb1036b">
+![image](https://github.com/NJAimesD/AIAcademyCapstone/assets/119623980/187e807f-e252-4b1b-8f5e-62aaebdeeb10)
+
 
 
 **Exploratory analysis**   
