@@ -17,7 +17,7 @@ The variables examined in relation to credit risk are as follows:
 
 ![image](https://github.com/NJAimesD/AIAcademyCapstone/assets/119623980/187e807f-e252-4b1b-8f5e-62aaebdeeb10)
 
-
+The target variable of this data set, which we are trying to predict, is loan_status, which tells us whether someone will default on their loan or not.
 
 **Exploratory analysis**   
 We first reviewed all the variables to understand their meaning.
